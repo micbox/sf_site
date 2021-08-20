@@ -1,4 +1,5 @@
-var data = [{ id: 1, name: "Kayak", category: "Watersports", 
+var data = [
+            { id: 1, name: "Kayak", category: "Watersports",
                 description: "A boat for one person", price: 275 },
             { id: 2, name: "Lifejacket", category: "Watersports", 
                 description: "Protective and fashionable", price: 48.95 },
@@ -17,7 +18,12 @@ var data = [{ id: 1, name: "Kayak", category: "Watersports",
             { id: 8, name: "Human Chess Board", category: "Chess", 
                 description: "A fun game for the family", price: 75 },
             { id: 9, name: "Bling Bling King", category: "Chess", 
-                description: "Gold-plated, diamond-studded King", price: 1200 }]
+                description: "Gold-plated, diamond-studded King", price: 1200 },
+            { id: 10, name: "Boat (motor)", category: "Watersports",
+                description: "Boat with motor", price: 38 },
+            { id: 11, name: "Ring", category: "Watersports",
+                description: "Emergency ring", price: 75 },
+]
 
 module.exports = function () {
     return { 
