@@ -2,6 +2,7 @@
     <store />
 </template>
 
+// testing git functionality
 <script>
     import Store from "./components/Store";
     import { mapActions } from "vuex";
